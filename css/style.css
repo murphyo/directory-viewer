@@ -1,0 +1,177 @@
+/* line 13, _reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+  line-height: inherit;
+  vertical-align: baseline;
+}
+
+/* line 25, _reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 28, _reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, _reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, _reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 38, _reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, _reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*----------VARIABLES
+*/
+/*----------EFFECTS
+*/
+/* line 15, style.scss */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  font-size: 62.5%;
+  /* 1rem = 10px */
+}
+
+/* line 24, style.scss */
+:focus {
+  outline: none;
+}
+
+/* line 28, style.scss */
+a:hover {
+  cursor: pointer;
+}
+
+/* line 32, style.scss */
+input {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*----------BODY
+*/
+/* line 41, style.scss */
+body {
+  background: #fff;
+}
+/* line 44, style.scss */
+body nav {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  height: 44px;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+/* line 52, style.scss */
+body nav select {
+  margin: 0 auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-transform: capitalize;
+  padding: 8px 24px;
+  margin-top: 6px;
+}
+/* line 63, style.scss */
+body > div {
+  margin-top: 44px;
+}
+/* line 68, style.scss */
+body ul li {
+  float: left;
+  width: 25%;
+  height: 150px;
+}
+/* line 73, style.scss */
+body ul li div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  height: 150px;
+}
+/* line 81, style.scss */
+body ul li div img {
+  max-width: 75px;
+  max-height: 60%;
+  padding: 12px;
+  border: 0px solid #aaa;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 91, style.scss */
+body ul li div a {
+  min-height: 100%;
+  color: #000;
+  text-decoration: none;
+}
+/* line 96, style.scss */
+body ul li div a:hover {
+  opacity: .5;
+}
+/* line 101, style.scss */
+body ul li div p {
+  padding: 8px 0 10px 0;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  width: 100%;
+  background: #fafafa;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 120, style.scss */
+  body ul li {
+    width: 33.3%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  /* line 132, style.scss */
+  body ul li {
+    width: 50%;
+  }
+}
