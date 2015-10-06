@@ -6,7 +6,7 @@
   <!-- Meta -->
   <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, minimal-ui">
   <!-- Title -->
-  <title>PHP Dynamic Image Directory Viewer</title>
+  <title>Image Directory Viewer</title>
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/style.css">
 </head>
