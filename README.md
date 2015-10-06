@@ -1,7 +1,6 @@
 ##Image Directory Viewer
 
-- Displays images from directories in a responsive grid  
-- Displays image filename
+- Displays list of images with filename in a responsive grid from selected directory  
 - Click to download image
 - Supports GIF, JPG, PNG, and SVG files
 - Includes icon sets:
