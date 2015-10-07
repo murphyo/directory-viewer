@@ -120,7 +120,7 @@ body > div {
 /* line 68, style.scss */
 body ul li {
   float: left;
-  width: 25%;
+  width: 12.5%;
   height: 150px;
 }
 /* line 73, style.scss */
@@ -163,15 +163,45 @@ body ul li div p {
   font-weight: bold;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 120, style.scss */
+@media screen and (max-width: 1600px) {
+  /* line 119, style.scss */
+  body ul li {
+    width: 14.285%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  /* line 131, style.scss */
+  body ul li {
+    width: 16.667%;
+  }
+}
+@media screen and (max-width: 1330px) {
+  /* line 143, style.scss */
+  body ul li {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 155, style.scss */
+  body ul li {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 167, style.scss */
   body ul li {
     width: 33.3%;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  /* line 132, style.scss */
+@media screen and (max-width: 480px) {
+  /* line 179, style.scss */
   body ul li {
     width: 50%;
+  }
+}
+@media screen and (max-width: 320px) {
+  /* line 191, style.scss */
+  body ul li {
+    width: 100%;
   }
 }
