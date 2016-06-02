@@ -16,6 +16,7 @@
       <select>
         <option value="">Select Icon Set</option>
         <option value="android">Android</option>
+        <option value="azure">Azure</option>
         <option value="entypo">Entypo</option>
         <option value="emoji">Google Emoji</option>
         <option value="ios">iOS</option>
