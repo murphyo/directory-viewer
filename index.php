@@ -21,6 +21,7 @@
         <option value="emoji">Google Emoji</option>
         <option value="ios">iOS</option>
         <option value="nova">Nova</option>
+        <option value="olympic">Olympic</option>
         <option value="social">Social</option>
         <option value="windows">Windows</option>
       </select>
